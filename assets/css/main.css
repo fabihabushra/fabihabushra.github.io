@@ -1898,7 +1898,7 @@ button,
     content: '\f002';
     cursor: default;
     display: block;
-    font-size: 1.5em;
+    font-size: 2.25em;
     height: 2em;
     line-height: 2em;
     opacity: 0.325;
@@ -1924,11 +1924,11 @@ button,
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   background-color: #f5f6f7;
-  font-size: 0.9em;
+  font-size: 1.35em;
   position: relative;
   width: 26em; }
   #sidebar h2 {
-    font-size: 1.38889em; }
+    font-size: 2.083335em; }
   #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
     position: relative;
@@ -1983,7 +1983,7 @@ button,
       font-weight: 900; }
     #sidebar .toggle:before {
       content: '\f0c9';
-      font-size: 2rem;
+      font-size: 3rem;
       height: inherit;
       left: 0;
       line-height: inherit;
@@ -2010,7 +2010,7 @@ button,
         text-indent: 5em;
         width: 5em; }
         #sidebar .toggle:before {
-          font-size: 1.5rem; }
+          font-size: 2.25rem; }
       #sidebar.inactive {
         margin-left: -24em; } }
   @media screen and (max-width: 1280px) {
@@ -2040,7 +2040,7 @@ button,
         text-indent: 6em;
         width: 6em; }
         #sidebar .toggle:before {
-          font-size: 1.5rem;
+          font-size: 2.25rem;
           margin-left: -0.4375em; }
       body.is-preload #sidebar {
         display: none; } }
@@ -2052,7 +2052,7 @@ button,
         color: #7f888f;
         margin-left: -0.0625em;
         margin-top: -0.25em;
-        font-size: 1.1rem;
+        font-size: 1.65rem;
         z-index: 1; }
       #sidebar .toggle:after {
         background: rgba(222, 225, 226, 0.75);
