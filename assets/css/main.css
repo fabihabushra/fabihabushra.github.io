@@ -128,7 +128,8 @@ em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2em 0; }
+  margin: 0 0 2em 0;
+  text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
@@ -995,7 +996,8 @@ header p {
   font-weight: 400;
   letter-spacing: 0.075em;
   margin-top: -0.5em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-decoration: none; }
 
 header.major > :last-child {
   border-bottom: solid 3px #60d394;
