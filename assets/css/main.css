@@ -2140,9 +2140,9 @@ button,
     margin: 0 0 2em 4em;
     width: 50%; }
     #banner .image img {
-      height: 70%;
-      width: 70%;
-      margin-left: 30%;    
+      height: 75%;
+      width: 75%;
+      margin-left: 25%;    
       -moz-object-fit: cover;
       -webkit-object-fit: cover;
       -ms-object-fit: cover;
