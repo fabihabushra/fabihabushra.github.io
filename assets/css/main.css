@@ -133,7 +133,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
-  font-family: "Roboto Slab", serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   line-height: 1.5;
   margin: 0 0 1em 0; }
@@ -991,7 +991,7 @@ section.special, article.special {
   text-align: center; }
 
 header p {
-  font-family: "Roboto Slab", serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.80em;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -1502,7 +1502,7 @@ button,
   color: #60d394 !important;
   cursor: pointer;
   display: inline-block;
-  font-family: "Roboto Slab", serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.64em;
   font-weight: 700;
   height: 3.5em;
@@ -2085,7 +2085,7 @@ button,
   #header .logo {
     border-bottom: 0;
     color: inherit;
-    font-family: "Roboto Slab", serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 0.90em; }
   #header .icons {
     text-align: right; }
@@ -2202,7 +2202,7 @@ button,
   -ms-user-select: none;
   user-select: none;
   color: #3d4449;
-  font-family: "Roboto Slab", serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   letter-spacing: 0.075em;
   list-style: none;
