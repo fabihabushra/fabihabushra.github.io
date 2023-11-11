@@ -2078,9 +2078,9 @@ button,
 #header .logo {
   color: inherit;
   font-family: "Roboto Slab", serif;
-  font-size: 0.90em;
+  font-size: 1.125em;
   border-bottom: 0;
-  margin-right: 20px; /* Set a fixed margin for all logo links */
+  margin-right: 25px; /* Set a fixed margin for all logo links */
 }
 
 #header .logo:first-child {
@@ -2088,7 +2088,7 @@ button,
 }
 
 #header .logo:not(:first-child) {
-  margin-left: 20px; /* Set margin only for logo links that are not the first child */
+  margin-left: 25px; /* Set margin only for logo links that are not the first child */
 }
 
 #header .icons {
@@ -2108,7 +2108,7 @@ button,
   }
 
   #header .logo {
-    font-size: 1.00em;
+    font-size: 1.125em;
     margin: 0; 
   }
 
