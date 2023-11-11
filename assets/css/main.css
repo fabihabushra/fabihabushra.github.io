@@ -2081,6 +2081,7 @@ button,
   font-size: 1.25em;
   border-bottom: 0;
   margin-right: 25px; /* Set a fixed margin for all logo links */
+  padding-top: 10px;
 }
 
 #header .logo:first-child {
