@@ -2067,49 +2067,60 @@ button,
         top: 1em;
         width: 5em; } }
 
-/* Header */
 #header {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
-  justify-content: flex-end;	
+  align-items: center; /* Ensure items are vertically centered */
   border-bottom: solid 5px #60d394;
   padding: 6em 0 1em 0;
-  position: relative; }
-  #header > * {
-    -moz-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin-bottom: 0; }
-  #header .logo {
-    margin-right: 20px;
-    border-bottom: 0;
-    color: inherit;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.125em; }
-  #header .logo:last-child {
-    margin-right: 0; /* Remove margin for the last logo link */
+  position: relative; 
+}
+
+#header .logo {
+  color: inherit;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.90em;
+  border-bottom: 0;
+  margin-right: 20px; /* Set a fixed margin for all logo links */
+}
+
+#header .logo:first-child {
+  margin-left: 0; /* No margin for the first logo link */
+}
+
+#header .logo:not(:first-child) {
+  margin-left: 20px; /* Set margin only for logo links that are not the first child */
+}
+
+#header .icons {
+  margin-left: auto; /* Push icons to the right */
+  text-align: right;
+}
+
+@media screen and (max-width: 1680px) {
+  #header {
+    padding-top: 5em; 
   }
+}
+
+@media screen and (max-width: 736px) {
+  #header {
+    padding-top: 6.5em; 
+  }
+
+  #header .logo {
+    font-size: 1.00em;
+    margin: 0; 
+  }
+
   #header .icons {
-    flex: 0 0 auto;
-    text-align: right; }
-  @media screen and (max-width: 1680px) {
-    #header {
-      padding-top: 5em; } }
-  @media screen and (max-width: 736px) {
-    #header {
-      padding-top: 6.5em; }
-      #header .logo {
-        font-size: 1.125em;
-        margin: 0; }
-      #header .icons {
-        height: 5em;
-        line-height: 5em;
-        position: absolute;
-        right: -0.5em;
-        top: 0; } }
+    height: 5em;
+    line-height: 5em;
+    position: absolute;
+    right: -0.5em;
+    top: 0; 
+  } 
+}
+
 
 /* Banner */
 #banner {
