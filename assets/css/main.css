@@ -1015,7 +1015,7 @@ form {
 label {
   color: #3d4449;
   display: block;
-  font-size: 0.72em;
+  font-size: 0.9em;
   font-weight: 600;
   margin: 0 0 1em 0; }
 
@@ -2085,7 +2085,7 @@ button,
     margin-bottom: 0; }
   #header .logo {
     flex: 1; 
-    text-align: center; 
+    text-align: left; 
     border-bottom: 0;
     color: inherit;
     font-family: "Open Sans", sans-serif;
