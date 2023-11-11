@@ -2078,7 +2078,7 @@ button,
 #header .logo {
   color: inherit;
   font-family: "Roboto Slab", serif;
-  font-size: 1.125em;
+  font-size: 1.25em;
   border-bottom: 0;
   margin-right: 25px; /* Set a fixed margin for all logo links */
 }
