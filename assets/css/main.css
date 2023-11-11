@@ -2073,7 +2073,7 @@ button,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  justify-content: space-between;	
+  justify-content: flex-end;	
   border-bottom: solid 5px #60d394;
   padding: 6em 0 1em 0;
   position: relative; }
@@ -2084,12 +2084,14 @@ button,
     flex: 1;
     margin-bottom: 0; }
   #header .logo {
-    flex: 1; 
-    text-align: left; 
+    margin-right: 20px;
     border-bottom: 0;
     color: inherit;
     font-family: "Open Sans", sans-serif;
     font-size: 1.125em; }
+  #header .logo:last-child {
+    margin-right: 0; /* Remove margin for the last logo link */
+  }
   #header .icons {
     flex: 0 0 auto;
     text-align: right; }
