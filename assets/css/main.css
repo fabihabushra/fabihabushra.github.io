@@ -2084,11 +2084,14 @@ button,
     flex: 1;
     margin-bottom: 0; }
   #header .logo {
+    flex: 1; 
+    text-align: center; 
     border-bottom: 0;
     color: inherit;
     font-family: "Open Sans", sans-serif;
     font-size: 1.125em; }
   #header .icons {
+    flex: 0 0 auto;
     text-align: right; }
   @media screen and (max-width: 1680px) {
     #header {
