@@ -2086,7 +2086,7 @@ button,
     border-bottom: 0;
     color: inherit;
     font-family: "Open Sans", sans-serif;
-    font-size: 0.90em; }
+    font-size: 1.125em; }
   #header .icons {
     text-align: right; }
   @media screen and (max-width: 1680px) {
@@ -2096,7 +2096,7 @@ button,
     #header {
       padding-top: 6.5em; }
       #header .logo {
-        font-size: 1.00em;
+        font-size: 1.125em;
         margin: 0; }
       #header .icons {
         height: 5em;
