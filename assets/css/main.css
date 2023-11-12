@@ -2208,7 +2208,11 @@ button,
         width: 100%; } }
   @media screen and (max-width: 768px) {
     #banner .image {
-      max-height: 40vh; } }
+      height: 25em;        /* Adjusted height for mobile */
+      max-height: 50vh;    /* Adjusted max-height for mobile */
+      min-height: 20em;    /* Adjusted min-height for mobile */
+    }
+  }
 
 
 /* Footer */
