@@ -2049,6 +2049,7 @@ button,
         display: none; } }
   @media screen and (max-width: 736px) {
     #sidebar .toggle {
+      top: 1em;
       text-indent: 7.25em;
       width: 7.25em; }
       #sidebar .toggle:before {
