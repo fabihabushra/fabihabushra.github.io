@@ -2096,7 +2096,8 @@ button,
   margin-left: auto; 
   text-align: right;
   font-size: 1.25em;
-  margin-top: 10px;
+  position: relative; 
+  top: 70px;
 }
 
 @media screen and (max-width: 1680px) {
