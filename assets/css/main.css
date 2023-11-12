@@ -2208,7 +2208,15 @@ button,
         width: 100%; } }
   @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner .image {
-      max-height: 50vh; } }
+      max-height: 35vh; } }
+  @media screen and (max-width: 768px) {
+    #banner .image {
+      height: 30em;        /* Adjusted height for mobile */
+      max-height: 60vh;    /* Adjusted max-height for mobile */
+      min-height: 20em;    /* Adjusted min-height for mobile */
+    }
+  }
+
 
 /* Footer */
 #footer .copyright {
