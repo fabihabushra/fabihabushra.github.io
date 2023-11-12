@@ -2296,6 +2296,13 @@ button,
     margin-top: 0;
     padding-top: 0; }
 
-p a {
-    text-decoration: none;
+#menu {
+    display: none;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 736px) {
+    #menu {
+        display: block; /* Show the menu in the mobile version */
+    }
 }
