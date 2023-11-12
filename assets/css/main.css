@@ -2096,7 +2096,7 @@ button,
   margin-left: auto; 
   text-align: right;
   font-size: 1.25em; 
-  padding-top: 35px;
+  padding-top: 70px;
 }
 
 @media screen and (max-width: 1680px) {
@@ -2116,6 +2116,7 @@ button,
   }
 
   #header .icons {
+    font-size: 1.125em;   
     height: 5em;
     line-height: 5em;
     position: absolute;
