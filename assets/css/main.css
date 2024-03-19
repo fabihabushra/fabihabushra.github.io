@@ -1853,7 +1853,7 @@ button,
   flex-shrink: 1;
   width: 100%; }
   #main > .inner {
-    padding: 0 20em 0.1em 20em ;
+    padding: 0 19em 0.1em 19em ;
     margin: 0 auto;
     max-width: 110em; }
     #main > .inner > section {
@@ -2161,7 +2161,7 @@ button,
     -ms-flex-shrink: 0;
     flex-shrink: 0;
     display: block;
-    margin: 0 0 2em 1em;
+    margin: 0 0 2em 2em;
     width: 40%; }
     #banner .image img {
       height: 100%;
