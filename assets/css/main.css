@@ -2147,7 +2147,7 @@ button,
     -webkit-flex-shrink: 1;
     -ms-flex-shrink: 1;
     flex-shrink: 1;
-    width: 70%; }
+    width: 100%; }
  #banner .content a {
      text-decoration: none;
  }
