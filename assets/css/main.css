@@ -1853,7 +1853,7 @@ button,
   flex-shrink: 1;
   width: 100%; }
   #main > .inner {
-    padding: 0 10em 0.1em 10em ;
+    padding: 0 20em 0.1em 20em ;
     margin: 0 auto;
     max-width: 110em; }
     #main > .inner > section {
