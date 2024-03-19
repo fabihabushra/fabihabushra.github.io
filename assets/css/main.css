@@ -2162,7 +2162,7 @@ button,
     flex-shrink: 0;
     display: block;
     margin: 0 0 2em 4em;
-    width: 30%; }
+    width: 100%; }
     #banner .image img {
       height: 100%;
       width: 100%;    
